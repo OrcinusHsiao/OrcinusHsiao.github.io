@@ -12,17 +12,7 @@ SimCLR
 
 ![](https://i.imgur.com/ITbyWoN.png)
 
-$$
-\ell_{i,j} = -\log \frac{\exp(\mathrm{sim}( z_i,  z_j)/\tau)}{\sum_{k=1}^{2N} \mathbb{I} {k \neq i}\exp(\mathrm{sim}( z_i,  z_k)/\tau)}~
-$$
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;\ell_{i,j} = -\log \frac{\exp(\mathrm{sim}( z_i,  z_j)/\tau)}{\sum_{k=1}^{2N} \mathbb{I} {k \neq i}\exp(\mathrm{sim}( z_i,  z_k)/\tau)}~)
 
 --------------------------------------------------
-
-
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-$$x = a_0 + \cfrac{1^2}{a_1
-          + \cfrac{2^2}{a_2
-          + \cfrac{3^2}{a_3
-          + \cdots}}}$$
-
