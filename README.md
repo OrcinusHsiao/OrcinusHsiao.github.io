@@ -2,7 +2,7 @@
 
 
 
-![](https://latex.codecogs.com/svg.latex?\Large&space;\ell_{i,j})
+![](https://latex.codecogs.com/svg.latex?\Large&space;\ell_{i,j}=-log\frac{\exp(\mathrm{sim}(z_i,z_j)/\tau)}{\sum_{k=1}^{2N}\mathbb{I}{k\neqi}\exp(\mathrm{sim}(z_i,z_k)/\tau)})
 
 --------------------------------------------------------
 
