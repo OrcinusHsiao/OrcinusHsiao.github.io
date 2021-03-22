@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to OrcinusHsiao GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/OrcinusHsiao/OrcinusHsiao.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![頭貼](https://avatars.githubusercontent.com/u/40197751?s=460&u=9a3d416adaba4f1d690094704be90deb9896c57e&v=4)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 目前研究領域/方向:
+  - 數據分析
+  - 資料探勘
+  - 負載預測
 
-### Markdown
+-------------
+SimCLR
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](https://i.imgur.com/ITbyWoN.png)
 
-```markdown
-Syntax highlighted code block
+$$
+\ell_{i,j} = -\log \frac{\exp(\mathrm{sim}( z_i,  z_j)/\tau)}{\sum_{k=1}^{2N} \mathbb{I} {k \neq i}\exp(\mathrm{sim}( z_i,  z_k)/\tau)}~
+$$
 
-# Header 1
-## Header 2
-### Header 3
+--------------------------------------------------
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+![](https://latex.codecogs.com/svg.latex?\Large&space;x=a_0+\cfrac{1^2}{a_1+\cfrac{2^2}{a_2+\cdots}})
 
-[Link](url) and ![Image](src)
-```
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+$$
+x = a_0 + \cfrac{1^2}{a_1
+          + \cfrac{2^2}{a_2
+          + \cfrac{3^2}{a_3
+          + \cdots}}}
+$$
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OrcinusHsiao/OrcinusHsiao.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
